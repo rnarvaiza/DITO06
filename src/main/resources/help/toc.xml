@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc version="1.0">
+   <tocitem text="Manual" target="main">
+      <tocitem text="Java Help" target="javaHelp"/>
+      <tocitem text="JasperReport" target="JasperReport"/>
+      <tocitem text="JDBC" target="jdbc"/>
+   </tocitem>
+</toc>
