@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JDBC</title>
+    <style>
+        body {background-color: #3b3b3c;}
+        h2, p, li   {color:  #559952; font-family: sans-serif}
+        h2 {text-align: center}
+        li {font-weight: bold}
+        img {align-content: center}
+    </style>
+</head>
+<body>
+    <h2>JDBC overview</h2>
+    <p>Java Database Connectivity (JDBC) is a Java standard that provides the interface for connecting
+        from Java to relational databases. The JDBC standard is defined by Sun Microsystems and implemented
+        through the standard java.sql interfaces. This allows individual providers to
+        implement and extend the standard with their own JDBC drivers. JDBC is based on the X/Open SQL Call Level Interface (CLI)</p>
+    <ul>
+        <li style="line-height: 18px; ">Check ResultSet</li>
+        <li style="line-height: 18px; ">Use Prepared Statement</li>
+        <li style="line-height: 18px; ">Use ConnectionPool</li>
+        <li style="line-height: 18px; ">Disable Auto-Commit Mode</li>
+        <li style="line-height: 18px; ">Use JDBC Batch Statements</li>
+        <li style="line-height: 18px; ">Access ResultSet Using Column Name Instead of Column Index</li>
+        <li style="line-height: 18px; ">Access ResultSet Using Column Name Instead of Column Index</li>
+        <li style="line-height: 18px; ">Always Close Statement, PreparedStatement, and Connection</li>
+        <li style="line-height: 18px; ">Choose Suitable JDBC Driver for Ypur Application</li>
+        <li style="line-height: 18px; ">Use Correct getxxx() Method</li>
+    </ul>
+    <img src="images/jdbc.png" alt="jdbc logo">
+</body>
 </html>

@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaHelp</title>
+    <style>
+        body {background-color: #3b3b3c;}
+        h2, p, li   {color:  #559952; font-family: sans-serif}
+        h2 {text-align: center}
+        h2, li {font-weight: bold}
+    </style>
+</head>
+<body>
+    <h2>This manual contains information regarding to: </h2>
+        <ul>
+            <li style="line-height: 18px; ">Helpset File</li>
+            <p>When the JavaHelp system is activated by your application, the first thing it does is read the helpset file specified by the application. The helpset file defines the helpset
+                for that application. A helpset is the set of data that comprises your help system.</p>
+            <li style="line-height: 18px; ">Index File</li>
+            <p>The index file describes to the index navigator the content and layout of the index. The format of the index file is based on the
+                World Wide Web Consortium Extended Markup Language (XML)</p>
+            <li style="line-height: 18px; ">TOC File</li>
+            <p>The table of contents (TOC) file describes for the TOC navigator the content and layout of the TOC. The format of the TOC file is based on the
+                World Wide Web Consortium (W3C) Extended Markup Language (XML).</p>
+            <li style="line-height: 18px; ">Map File</li>
+            <p>When the JavaHelp system is activated by your application, the first thing it does is read the application's helpset file.
+                The next thing it does is read the map file listed in the helpset file. The map file is used to associate topic IDs with URLs (paths to HTML topic files) and to define the window that can display help topics.
+                By convention, map file names use the .jhm suffix. </p>
+        </ul>
+</body>
 </html>
